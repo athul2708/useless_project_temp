@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reverse Wiki — Offline (100 topics)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div class="left-top">
+        <div class="heat-wrap">
+          <div class="heat-label"><span>Heatness</span><span id="heatLabel">--</span></div>
+          <div id="heatBarContainer" class="heat-bar-container">
+            <div id="heatFill" class="heat-fill"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-top">
+        <div class="title">Reverse Wiki — Find the Hidden Page</div>
+      </div>
+
+      <div class="right-top">
+        <div class="moves">Moves: <span id="moves">0</span></div>
+      </div>
+    </header>
+
+    <div class="search-row">
+      <input id="searchInput" placeholder="Search pages (type & press Enter)" autocomplete="off" />
+      <button id="searchBtn">Go</button>
+      <div id="autocomplete" class="autocomplete"></div>
+    </div>
+
+    <main class="main">
+      <section class="article-area">
+        <h2 id="pageTitle">...</h2>
+        <div id="pageSummary" class="summary muted">...</div>
+
+        <div id="links" class="links" aria-live="polite"></div>
+
+        <div class="preview-note">Preview disabled in offline mode</div>
+      </section>
+
+      <aside class="panel">
+        <div class="controls">
+          <button id="backBtn" class="btn secondary">⬅ Back</button>
+          <button id="hintBtn" class="btn">💡 Hint</button>
+          <button id="giveUpBtn" class="btn danger">Give Up</button>
+          <button id="newGameBtn" class="btn" style="display:none">New Game</button>
+        </div>
+
+        <div class="hintBox">
+          <div id="hintText" class="hint-text">Click Hint for a masked sentence or image.</div>
+          <img id="hintImage" class="hint-image" alt="" style="display:none">
+        </div>
+
+        <div class="status">
+          <div id="targetNote" class="muted">Target: <em>hidden</em></div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">Happy testing — use search/autocomplete to navigate quickly.</footer>
+  </div>
+
+  <div id="confettiContainer" aria-hidden="true"></div>
+
+  <script src="game.js"></script>
+</body>
+</html>
