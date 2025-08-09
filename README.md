@@ -9,12 +9,12 @@
 
 
 ### Team Members
-- Team Lead: [Pranav M P] - [Cusat DCS]
-- Member 2: [Athulkrishna K] - [Cusat DCS]
+- Team Lead: [Athulkrishna K] - [Cusat DCS]
+- Member 2: [Pranav M P] - [Cusat DCS]
 - Member 3: [Name] - [College]
 
 ### Project Description
-[ A twist on The Wiki Game where you start at a random article and must find your way to the hidden target page using a hot/cold heat bar as your only guide. The game runs fully offline with a dataset of 100+ interconnected real-world topics]
+[ Reverse Wiki Game is a twist on The Wiki Game where you start on a random article and must navigate through linked pages to reach a hidden target page. Unlike the original, the target is not revealed from the start. Instead, you are guided by a heat bar that changes from cold to hot depending on how close you are to the target in terms of link distance. You can use the search bar with autocomplete to jump directly to known pages or click on in-article links to move step-by-step. A hint button reveals a random sentence from the target article with the target name removed, helping you make more strategic moves. When you reach the target page, a victory animation plays, and you can start a new round. If you give up, the target page is revealed without triggering the victory effects, allowing you to see the path you could have taken.]
 
 ### The Problem (that doesn't exist)
 [Lack of entertainment]
@@ -26,25 +26,6 @@
 ### Technologies/Components Used
 For Software:
 - [HTML, Javascript, Css]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
@@ -86,11 +67,6 @@ For Hardware:
 
 # Additional Demos
 [Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
