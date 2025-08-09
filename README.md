@@ -1,31 +1,31 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [Reverse wiki game] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Code nova]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
+- Team Lead: [Pranav M P] - [Cusat DCS]
+- Member 2: [Athulkrishna K] - [Cusat DCS]
 - Member 3: [Name] - [College]
 
 ### Project Description
-[2-3 lines about what your project does]
+[ A twist on The Wiki Game where you start at a random article and must find your way to the hidden target page using a hot/cold heat bar as your only guide. The game runs fully offline with a dataset of 100+ interconnected real-world topics]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[Lack of entertainment]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[Entertainment]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [HTML, Javascript, Css]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
